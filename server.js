@@ -1,7 +1,7 @@
 const http = require("http");
 const httpProxy = require("http-proxy");
 
-const TARGET = "http://startpage.com";
+const TARGET = "https://startpage.com";
 const proxy = httpProxy.createProxyServer();
 
 //
